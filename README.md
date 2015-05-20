@@ -9,8 +9,6 @@ two ways:
 
 
 To use the stemmer just call the start function.
-
-
       $text_to_stem = ".....";
       $simple_stemmer = FALSE; // OR TRUE
       $stemmed_words = start($text_to_stem, $simple_stemmer);
