@@ -9,9 +9,9 @@ two ways:
 
 
 To use the stemmer just call the start function.
-    $text_to_stem = ".....";
-    $simple_stemmer = FALSE; // OR TRUE
-    $stemmed_words = start($text_to_stem, $simple_stemmer);
+      $text_to_stem = ".....";
+      $simple_stemmer = FALSE; // OR TRUE
+      $stemmed_words = start($text_to_stem, $simple_stemmer);
 
 
 In case the simple_stemmer is TRUE, a simple array is returned.
