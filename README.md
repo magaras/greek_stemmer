@@ -16,6 +16,7 @@ To use the stemmer just call the start function.
       $stemmed_words = start($text_to_stem, $simple_stemmer);
 
 
+
 In case the simple_stemmer is **TRUE**, a simple array is returned.
 
 In case the simple_stemmer is **FALSE**, an associative array is returned. Each stemmed word is the key of the array and the occurrences of the word is the element's value.
